@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce-mf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selvanathan-viswanathan/e-commerce-mf.git"
+  },
+  "author": "selvanathan-viswanathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selvanathan-viswanathan/e-commerce-mf/issues"
+  },
+  "homepage": "https://github.com/selvanathan-viswanathan/e-commerce-mf#readme"
+}

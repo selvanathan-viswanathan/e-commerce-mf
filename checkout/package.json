@@ -11,12 +11,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@babel/core": "^7.28.3",
-    "@babel/preset-env": "^7.28.3",
-    "@babel/preset-react": "^7.27.1",
     "@types/node": "^24.3.0",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "babel-loader": "^10.0.0",
     "html-webpack-plugin": "^5.6.4",
     "ts-loader": "^9.5.2",
     "ts-node": "^10.9.2",

@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ProductList from "./ProductList";
+import ProductList from "./Pages/ProductList";
 
 // Typical React 18 entry point with TS
 const root = ReactDOM.createRoot(

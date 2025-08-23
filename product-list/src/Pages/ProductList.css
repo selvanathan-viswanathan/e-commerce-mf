@@ -1,0 +1,31 @@
+.container {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.products-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-section h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #fff;
+}
+
+.header-section h5 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #ccc;
+  line-height: 1.5;
+}

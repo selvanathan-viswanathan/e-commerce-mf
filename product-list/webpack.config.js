@@ -15,6 +15,10 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"], // <-- tells webpack to handle CSS
+      },
+      {
         test: /\.(js|jsx|ts|tsx)$/,
         loader: "ts-loader",
         exclude: /node_modules/,
@@ -26,7 +30,7 @@ module.exports = {
       name: "productlist",
       filename: "remoteEntry.js",
       exposes: {
-        "./ProductList": "./src/ProductList",
+        "./ProductList": "./src/Pages/ProductList",
       },
       shared: ["react", "react-dom"],
     }),

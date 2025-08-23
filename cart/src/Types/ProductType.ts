@@ -15,6 +15,7 @@ export type ProductType = {
   description: string;
   category: CategoryType;
   images: Array<string>;
+  image?: string;
   creationAt: Date;
   updatedAt: Date;
 };
@@ -25,6 +26,7 @@ export type CartItemType = {
   date: Date;
   products: Array<{
     product: ProductType;
+    productId: number;
     quantity: number;
   }>;
 };

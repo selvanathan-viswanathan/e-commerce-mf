@@ -1,10 +1,20 @@
-.cart-container {
+body {
+  margin: 0;
+}
+.cart-section {
   background-color: #111;
   color: white;
   padding: 20px;
-  border-radius: 8px;
+  height: 100vh;
+  width: 100vw;
+}
+.cart-container {
+  border: solid 1px #fff;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 20px;
   width: 80%;
-  margin: 40px auto;
+  margin: auto;
 }
 
 .cart-title {

@@ -45,10 +45,12 @@ export const mockCart: CartItemType = {
     {
       product: mockProducts[0],
       quantity: 2,
+      productId: 101,
     },
     {
       product: mockProducts[1],
       quantity: 1,
+      productId: 102,
     },
   ],
 };
